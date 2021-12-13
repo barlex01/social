@@ -9,8 +9,8 @@ const Header = () => {
             <img src={logo2} alt="" className="logo" />
           </a>        
         </div>
-        <div className="wrapper__header__title">
-          <h1 className="header__title">May there be harmony with you</h1>
+        <div className="header__title">
+          <h1 className="header__title-item">May there be harmony with you</h1>
         </div>
         <div className="header__logo">
           <a href="/" className="link__logo">
