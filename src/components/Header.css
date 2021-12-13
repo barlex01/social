@@ -1,0 +1,27 @@
+.header {
+    border-radius: 5px;
+    display: flex;
+    background-color: rgb(20, 20, 20);
+    border: 1px solid rgb(114, 112, 112);
+    align-items: center;
+    justify-content:space-between ;
+    -webkit-box-shadow: 0px 12px 15px -3px rgba(34, 60, 80, 0.25);
+    -moz-box-shadow: 0px 12px 15px -3px rgba(34, 60, 80, 0.25);
+    box-shadow: 0px 12px 15px -3px rgba(0, 0, 0, 0.623);
+  
+  
+}
+.header__logo{
+    padding:5px 20px ;
+}
+.header__title-item {
+    text-align: center;
+    color: rgb(238, 238, 238);
+    font-weight: 200;
+ 
+}
+.logo {
+    width: 80px;
+    height: 80px;
+    
+}

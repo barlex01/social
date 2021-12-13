@@ -1,0 +1,123 @@
+.post{
+    padding: 0 190px 150px;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .textarea{
+    display: flex;
+    padding: 10px;
+    width: 100%;
+   
+    height: 80px;
+    margin: 0 auto;
+    border-radius: 10px;
+    resize: none;
+    color: rgb(224, 222, 222);
+    outline: none;
+    background-color: rgb(20, 20, 20);
+    -webkit-box-shadow: 0px 12px 15px -3px rgba(34, 60, 80, 0.25);
+    -moz-box-shadow: 0px 12px 15px -3px rgba(34, 60, 80, 0.25);
+    box-shadow: 4px 12px 15px -3px rgba(0, 0, 0, 0.623);
+  }
+  .textarea::placeholder{
+  
+    color: rgba(238, 236, 236, 0.712);
+    font-size: 16px;
+    
+    
+  }
+  
+  .btn__textarea{
+    display: block;
+    padding: 10px 25px;
+    border-radius: 10px;
+    outline: none;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    margin:20px 0 80px;
+    -webkit-box-shadow: 0px 12px 15px -3px rgba(34, 60, 80, 0.25);
+    -moz-box-shadow: 0px 12px 15px -3px rgba(34, 60, 80, 0.25);
+    box-shadow: 4px 12px 15px -3px rgba(0, 0, 0, 0.623);
+    cursor: pointer;
+    transition: 0.4s all ease-out;
+  }
+  .btn__textarea:hover{
+    transform: translate(4px, 12px);
+    box-shadow: none;
+    background-color: rgb(117, 117, 117);
+  }
+  .title__post{
+    margin-bottom: 30px;
+    padding: 10px 0;
+    color: rgb(41, 40, 40);
+    text-shadow: 4px 12px 4px rgba(73, 73, 73, 0.603);
+    font-weight: 300;
+    font-size: 30px;
+  }
+  
+  
+  .posts{
+    position: relative;
+    display: flex;
+    align-items: center;
+    max-width: 1000px;
+    width: 100%;
+    margin: 20px auto;
+  }
+  .posts__text{
+    margin-left: 6em;
+    font-size: 20px;
+    color: rgb(54, 1, 1);
+    text-shadow: 4px 12px 4px rgba(73, 73, 73, 0.603);
+  }
+  .circle{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(20, 20, 20);
+    -webkit-box-shadow: 0px 12px 15px -3px rgba(34, 60, 80, 0.25);
+    -moz-box-shadow: 0px 12px 15px -3px rgba(34, 60, 80, 0.25);
+    box-shadow: 0px 12px 15px -3px rgba(0, 0, 0, 0.623);
+    transition: 0.3s all ease-out;
+    
+  }
+  .circle2{
+    top: 5px;
+    left: 5px;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(20, 20, 20);
+    border: 2px solid white;
+    opacity: 0;
+    transition: 0.3s all ease-out;
+    
+    
+  }
+  .circle:hover .circle2{
+    opacity: 1;
+    box-shadow: 0px 0px 5px  rgb(255, 255, 255);
+  
+  }
+  .circle3{
+    top: 16px;
+    left: 16px;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    opacity: 0;
+    transition: 0.3s all ease-out;
+    transition-delay: 0.3s;
+  
+    
+  }
+  .circle:hover .circle3{
+    opacity: 1;
+    background-color: rgb(255, 255, 255);
+    /* box-shadow: 0px 0px 15px 2px rgb(255, 255, 255); */
+  }
