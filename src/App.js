@@ -14,11 +14,9 @@ function App() {
       <Header />
       <div className="wrapper">
         <Nav />
-        
         <main className="content">
          <AboutMe />
           {/* <Slider /> */}
-          
           <Post />
         </main>
       </div>

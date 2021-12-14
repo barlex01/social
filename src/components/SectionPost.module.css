@@ -2,12 +2,13 @@
     padding: 0 190px 150px 0px;
     margin: 0 auto;
     width: 100%;
+    color:  rgb(238, 238, 238)
   }
   .textarea{
     display: flex;
     padding: 10px;
     width: 100%;
-   
+    border: none;
     height: 80px;
     margin: 0 auto;
     border-radius: 10px;
@@ -35,7 +36,7 @@
     background-color: dodgerblue;
     color: white;
     border: none;
-    margin:20px 0 80px;
+    margin:45px 0 80px;
     -webkit-box-shadow: 0px 12px 15px -3px rgba(34, 60, 80, 0.25);
     -moz-box-shadow: 0px 12px 15px -3px rgba(34, 60, 80, 0.25);
     box-shadow: 4px 12px 15px -3px rgba(0, 0, 0, 0.623),0px 2px dodgerblue;
@@ -50,9 +51,10 @@
   .title__post{
     margin-bottom: 30px;
     padding: 10px 0;
-    color: rgb(41, 40, 40);
-    text-shadow: 4px 12px 4px rgba(73, 73, 73, 0.603);
-    font-weight: 300;
+    color:  rgb(240 248 255);
+  
+    font-weight: 200;
+    letter-spacing: 5px;
     font-size: 30px;
   }
   
@@ -68,8 +70,9 @@
   .posts__text{
     margin-left: 6em;
     font-size: 20px;
-    color: rgb(54, 1, 1);
-    text-shadow: 4px 12px 4px rgba(73, 73, 73, 0.603);
+    font-weight: 200;
+    color:  rgb(240 248 255);
+    
   }
   .circle{
     position: relative;
@@ -91,7 +94,7 @@
     height: 40px;
     border-radius: 50%;
     background-color: rgb(20, 20, 20);
-    border: 2px solid white;
+    border: 1px solid rgb(175, 174, 174);
     opacity: 0;
     transition: 0.3s all ease-out;
     
@@ -99,7 +102,7 @@
   }
   .circle:hover .circle2{
     opacity: 1;
-    box-shadow: 0px 0px 5px  rgb(255, 255, 255);
+    
   
   }
   .circle3{
@@ -109,7 +112,7 @@
     width: 18px;
     height: 18px;
     border-radius: 50%;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(175, 174, 174);
     opacity: 0;
     transition: 0.3s all ease-out;
     transition-delay: 0.3s;
@@ -118,6 +121,6 @@
   }
   .circle:hover .circle3{
     opacity: 1;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(175, 174, 174);
     /* box-shadow: 0px 0px 15px 2px rgb(255, 255, 255); */
   }

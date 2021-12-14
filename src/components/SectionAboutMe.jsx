@@ -10,18 +10,29 @@ const AboutMe = () => {
                 <img src={avatar} alt="" className={S.photo} />
               </div>
               <div className={S.my_name}>
-                <p className={S.my_name__text}>Alexey R.</p>
-                <div className={S.my_info}>
-                  <p > Date of Birth: 27 March</p>
-                  <p className="city">City: Los Angeles</p>
-                  <p className="education">Education: higher MGTU</p>
-                  <p className="web">
-                    Web Site:{" "}
+                <p className={S.my_name__text} >Alexey R.</p>
+                <div className={S.wrapper}>
+                   <div className={S.my_info}>
+                  <p > Date of Birth:</p>
+                  <p >City: </p>
+                  <p >Education:</p>
+                  <p >
+                    Web Site:
+
+                  </p>
+                </div>
+                <div className={S.my__info2}>
+                  <p >  27 March</p>
+                  <p > Los Angeles</p>
+                  <p >Higher MGTU</p>
+                  <p >
                     <a href="https://t.me/Barlex01" className={S.web__link}>
                       https://t.me/Barlex01
                     </a>
                   </p>
                 </div>
+                </div>
+               
               </div>
             </div>
           </section>
