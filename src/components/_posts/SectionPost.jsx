@@ -1,7 +1,11 @@
 import p from './SectionPost.module.css';
-
+import Posts from './post/Post'
 
 const Post = () => {
+
+
+
+
     return (
         <section className={p.post}>
             <div className="my-post">
@@ -20,25 +24,11 @@ const Post = () => {
                 </button>
               </div>
             </div>
-            <div className={p.posts}>
-              <div className={p.circle}>
-                <div className={p.circle2}></div>
-                <div className={p.circle3}></div>
-              </div>
-              <div className="posts__inner">
-                <p className={p.posts__text}>What's happend there??</p>
-              </div>
-            </div>
-            <div className={p.posts}>
-              <div className={p.circle}>
-                <div className={p.circle2}></div>
-                <div className={p.circle3}></div>
-              </div>
-
-              <div className="posts__inner">
-                <p className={p.posts__text}>That's all right))</p>
-              </div>
-            </div>
+          <Posts message ="Hello, what's happend here?"/>
+          <Posts message ="Don't worry, thsts all right)"/>
+          <Posts/>
+          <Posts/>
+            
           </section>
     )
 }

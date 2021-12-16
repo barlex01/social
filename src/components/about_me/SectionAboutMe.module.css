@@ -26,24 +26,40 @@
     letter-spacing: 10px;
     font-weight: 300;
     padding: 5px 2px;
+    margin-bottom: 30px;
     
   }
+
+.my__info2>p,
+.my_info>p{
+  margin: 10px 5px;
+  font-size: 20px;
+}
+.my_info{
+  margin-right: 10px;
+}
+.my__info2>p{
+  color: rgb(117, 116, 117);
+  margin:10px 30px;
+  font-weight: 300;
+  transition: color 0.7s ease-in-out;
   
+}
+.my__info2>p:hover{
+  color: rgba(255, 0, 255, 0.527);
+}
+.my__info2{
+  position: relative;
+  padding: 0px 10px;
+  box-shadow: 2px 12px 15px -3px inset rgba(0, 0, 0, 0.678),-10px 5px 15px -3px inset rgba(0, 0, 0, 0.678);;
+  border-radius: 10px;
+  background-color: rgb(53, 52, 52);
+  border: 1px solid rgb(100, 100, 100);
+}
+
   
-  .my_info {
-    
-   
-    
-  }
-  .my_info>{
-   
-  }
-  .my_info>{
-    
-  }
-  
-  .web__link{
-    color: dodgerblue;
+.web__link{
+    color: rgb(6, 128, 250);
   }
 .wrapper{
   display: flex;
@@ -51,4 +67,5 @@
   align-items: center;
   color:  rgb(240 248 255);
   font-weight: 200;
+  
 }

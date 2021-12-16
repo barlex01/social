@@ -1,4 +1,4 @@
-import avatar from "../avatar.JPG";
+import avatar from "../../avatar.JPG";
 import S from './SectionAboutMe.module.css'
 
 
@@ -9,6 +9,7 @@ const AboutMe = () => {
               <div >
                 <img src={avatar} alt="" className={S.photo} />
               </div>
+
               <div className={S.my_name}>
                 <p className={S.my_name__text} >Alexey R.</p>
                 <div className={S.wrapper}>
@@ -34,9 +35,15 @@ const AboutMe = () => {
                 </div>
                
               </div>
+              
             </div>
           </section>
+          
     )
 }
+
+
+
+
 
 export default AboutMe;

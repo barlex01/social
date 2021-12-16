@@ -70,8 +70,8 @@
     display: block;
     width: 80px;
     height: 80px;
-    background-image: url('../settings.gif');
-    box-shadow: 9px 12px 15px -3px inset rgba(0, 0, 0, 0.774);
+    background-image: url('../../settings.gif');
+    box-shadow: 9px 12px 15px -3px inset rgba(0, 0, 0, 0.877);
     border-radius: 10px;
   }
   .settings::after{
@@ -80,7 +80,7 @@
     margin: 20px auto 0;
     width: 80px;
     height: 80px;
-    border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.644);
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0.507);
   }
   

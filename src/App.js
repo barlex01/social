@@ -1,11 +1,11 @@
 
 import "./App.css";
-import Header from './components/Header';
-import Nav from './components/Navigation';
+import Header from './components/header/Header';
+import Nav from './components/nav/Navigation';
 // import Slider from './components/Slider';
-import AboutMe from './components/SectionAboutMe';
-import Post from './components/SectionPost';
-import Footer from './components/Footer';
+import AboutMe from './components/about_me/SectionAboutMe';
+import Post from './components/_posts/SectionPost';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -26,5 +26,6 @@ function App() {
     
   );
 }
+
 
 export default App;

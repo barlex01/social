@@ -1,0 +1,69 @@
+.posts{
+    position: relative;
+    display: flex;
+    align-items: center;
+    max-width: 1000px;
+    width: 100%;
+    margin: 20px auto;
+  }
+  .posts__text{
+    margin-left: 6em;
+    font-size: 20px;
+    font-weight: 200;
+    color:  rgb(240 248 255);
+    
+  }
+  .circle{
+    position: relative;
+    width: 50px;
+    height: 52px;
+    border-radius: 50%;
+    background-color: rgb(20, 20, 20);
+    -webkit-box-shadow: 0px 12px 15px -3px rgba(34, 60, 80, 0.25);
+    -moz-box-shadow: 0px 12px 15px -3px rgba(34, 60, 80, 0.25);
+    box-shadow: 0px 12px 15px -3px rgba(0, 0, 0, 0.623);
+    transition: 0.3s all ease-out;
+    
+  }
+  .circle:hover{
+    border: 1px solid fuchsia;
+  }
+  .circle2{
+    top: 11%;
+    left: 25%;
+    position: absolute;
+    width: 36px;
+    height: 38px;
+    border-radius: 50%;
+    background-color: rgb(20, 20, 20);
+    border: 2px solid rgb(6 128 250);
+    opacity: 0;
+    transition: 0.3s all ease-out;
+    transition-delay: 0.3s
+    
+    
+  }
+  .circle:hover .circle2{
+    opacity: 1;
+    
+  
+  }
+  .circle3{
+    top: 18px;
+    left: 70%;
+    position: absolute;
+    width: 10px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: rgb(175, 174, 174);
+    opacity: 0;
+    transition: 0.3s all ease-out;
+    transition-delay: 0.6s;
+  
+    
+  }
+  .circle:hover .circle3{
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.836);
+    /* box-shadow: 0px 0px 15px 2px rgb(255, 255, 255); */
+  }
