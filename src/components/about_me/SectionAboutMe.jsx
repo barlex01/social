@@ -1,4 +1,4 @@
-import avatar from "../../avatar.JPG";
+import avatar from "../../img/avatar.JPG";
 import S from './SectionAboutMe.module.css'
 
 

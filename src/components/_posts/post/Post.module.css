@@ -7,15 +7,22 @@
     margin: 20px auto;
   }
   .posts__text{
-    margin-left: 6em;
+    margin-left: 10px;
     font-size: 20px;
     font-weight: 200;
     color:  rgb(240 248 255);
     
   }
+  .posts__inner{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
   .circle{
     position: relative;
     width: 50px;
+    border: 1px solid black;
     height: 52px;
     border-radius: 50%;
     background-color: rgb(20, 20, 20);
@@ -65,5 +72,10 @@
   .circle:hover .circle3{
     opacity: 1;
     background-color: rgba(255, 255, 255, 0.836);
-    /* box-shadow: 0px 0px 15px 2px rgb(255, 255, 255); */
+    
+  }
+  .like{
+    font-weight: 200;
+    margin-left: 150px;
+    cursor: pointer;
   }
