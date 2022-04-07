@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&display=swap');
+
+
 .header {
     height: 150px;
     border-radius: 10px;
     display: flex;
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(29, 29, 29);
     align-items: center;
     justify-content:space-between ;
     
@@ -15,9 +18,11 @@
 }
 .header__title_item {
     text-align: center;
-    color: rgb(86, 96, 105);
-    font-weight: 200;
+    color: rgb(53, 53, 53);
+    font-weight: 100;
+    font-family: 'Barlow', sans-serif;
     font-size: 40px;
+    
  
 }
 .logo {

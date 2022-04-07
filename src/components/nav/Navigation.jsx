@@ -9,19 +9,19 @@ function Nav() {
     <nav className={n.nav}>
       <ul className={n.nav__list}>
         <li>
-          <NavLink activeClassName={n.navLink} className={btmBorder} to="/profile">Profile</NavLink>
+          <NavLink style={({isActive}) => ({color: isActive ? 'rgba(30, 143, 255, 0.54)' : ''})}  className={btmBorder} to="/profile">Profile</NavLink>
         </li>
         <li>
-          <NavLink className={btmBorder} to="/dialogs">Messages</NavLink>
+          <NavLink style={({isActive}) => ({color: isActive ? 'rgba(30, 143, 255, 0.54)' : ''})} className={btmBorder} to="/dialogs">Messages</NavLink>
         </li>
         <li>
-          <NavLink className={btmBorder} to="/news">News</NavLink>
+          <NavLink style={({isActive}) => ({color: isActive ? 'rgba(30, 143, 255, 0.54)' : ''})} className={btmBorder} to="/news">News</NavLink>
         </li>
         <li>
-          <NavLink className={btmBorder} to="/">Music</NavLink>
+          <NavLink style={({isActive}) => ({color: isActive ? 'rgba(30, 143, 255, 0.54)' : ''})} className={btmBorder} to="/S">Music</NavLink>
         </li>
         <li>
-          <NavLink className={btmBorder} to="/">Settings</NavLink>
+          <NavLink style={({isActive}) => ({color: isActive ? 'rgba(30, 143, 255, 0.54)' : ''})} className={btmBorder} to="/">Settings</NavLink>
         </li>
       </ul>
       <div className={n.settings}></div>

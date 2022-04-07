@@ -1,17 +1,20 @@
 import i from './Item.module.css';
-import image from '../../../img/avatar.JPG';
 
-function Item() {
+import { NavLink } from 'react-router-dom';
+import img from './ava2.jpeg'
+function Item(props) {
     return (
+       <NavLink to={`/dialogs/${props.id}`}>
         <li className={i.item}>
-            <img className={i.img} src={image} alt="" />
+            <img className={i.img} src={img} alt="" />
             <p className={i.name}>
-                Aleksei
+                {props.name}
             </p>
             <p className={i.surname}>
-                Rassudovskii
+                {props.surname}
             </p>
         </li>
+        </NavLink> 
     );
 }
 

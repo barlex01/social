@@ -1,17 +1,28 @@
 import d from './Dialogs.module.css'
 import Contacts from './contacts/Contacts'
+import { PersonDialog } from './personDialog/PersonDialog'
+
+
 const Dialogs = () => {
+    let contactsMessage = [
+
+        { id: 0, message:'Hello' },
+        { id: 1,message:'See you aftermoon'},
+        { id: 2, message:'i am happy' },
+        { id: 3, message: 'yes happy near with me'},
+    ]
+    let personElements = contactsMessage.map(c => <PersonDialog text={c.message} /> )
     return (
         <section className={d.container}>
             <Contacts />
-            <div className={d.person_dialog}>
-                <div className={d.person_info}>
+            <ul>
+               {personElements}
+            </ul>
 
-                    <p className={d.person_name}>Aleksei</p>
-                    <p className={d.person_surname}>Rassudovskii</p>
-                </div>
-                <p className={d.person_text}>Hello</p>
-            </div>
+
+
+
+
         </section>
     )
 }

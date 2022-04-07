@@ -1,7 +1,7 @@
 .container{
     display: flex;
 
-    background-color:#141414;
+    background-color: rgb(29, 29, 29);
     border-radius: 10px;
     height: 100%;
     
@@ -15,28 +15,19 @@
 .person_info{
     padding: 10px;
     display: flex;
-    color: rgb(86, 96, 105);
+   
    
 }
 .person_dialog{
    position: relative;
    width: 100%;
+   display: block;
  }
- .person_dialog::after{
-
-    content: '';
-    position: absolute;
-    height: 100%;
-    width: 6px;
-    background: rgb(54, 54, 54);
-    display: block;
-    top: 0;
-    left: 0;
-    border-radius: 10px;
-
- } 
+ 
 .person_text{
     text-align: center;
     
 } 
- 
+ul{
+    width: 100%;
+}
